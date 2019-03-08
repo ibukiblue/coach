@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* ナビゲーションバー */
+.container {
+  display: grid;
+  text-align: center;
+  line-height: 4;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 2rem;
+  grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 4;
+}
+.container a {
+  width: 100%;
+}
+.container a:hover {
+  background: linear-gradient(transparent 70%, #EC7938 70%) 
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.logo {
+  grid-column-start: 2; 
+  grid-column-end: 3;
+}
+.home {
+  grid-column-start: 4; 
+  grid-column-end: 5;
+}
+.coach {
+  grid-column-start: 5; 
+  grid-column-end: 6;
+}
+.message {
+  grid-column-start: 6; 
+  grid-column-end: 7;
+}
+.icon {
+  grid-column-start: 7; 
+  grid-column-end: 8;
+}
+
+/* トップイメージ */
+.top-image {
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+.top-image img {
+  max-width: 100%;
+  height: auto;
+}
+.top-image p {
+  font-size: 1.8rem;
+  line-height: 40px;
+}
+.top-image a {
+  color: #ffffff;
+}
+.registration {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  top: 240px;
+  left: 180px;
+  background-color: #EC7938;
+  border-radius: 10px;
+}
+.search {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  width: 150px;
+  height: 40px;
+  top: 310px;
+  left: 180px;
+  background-color: #EC7938;
+  border-radius: 10px;
+}
+
+/* コンセプト */
+.explain {
+  text-align: center;
+  height: 270px;
+  padding: 50px;
+}
+.concept {
+  font-size: 2rem;
+  margin: 30px;
+}
+.detail {
+  font-size: 1.8rem;
+}
+
+/* 人気コーチ一覧 */
+.list {
+  height: 450px;
+  background-color: #E5E5E5;
+  padding: 50px 80px;
+}
+.list p {
+  font-size: 2rem;
+}
+.coach-container {
+  display: flex;
+  flex-direction: row;
+}
