@@ -23,3 +23,20 @@ a {
 a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
+.btn {
+  display: inline-block;
+  text-align: center;
+  width: 15vw;
+  height: 6vh;
+  background-color: #ffffff;
+  color: #EC7938;
+  border: solid 2px #EC7938;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+.btn:hover {
+  background-color: #EC7938;
+  color: #ffffff;
+}
