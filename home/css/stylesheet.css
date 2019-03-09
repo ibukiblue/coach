@@ -51,8 +51,9 @@
   position: relative;
 }
 .top-image img {
-  max-width: 100%;
-  height: auto;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .top-image p {
   font-size: 1.8rem;
@@ -102,12 +103,40 @@
 .list {
   height: 450px;
   background-color: #E5E5E5;
-  padding: 50px 80px;
+  padding: 50px 150px;
 }
 .list p {
   font-size: 2rem;
 }
 .coach-container {
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+.item {
+  position: relative;
+  width: 15vw;
+  height: 15vw;
+}
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius:1.5vw;
+}
+.price {
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  width: 100px;
+  height: 25px;
+  top: 75%;
+  color: #ffffff;
+  background-color: #707070;
+  border-radius: 0px 5px 5px 0px;
+}
+.price p {
+  line-height: 25px;
+  font-size: 1.6rem;
 }
