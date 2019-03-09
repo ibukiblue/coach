@@ -37,6 +37,17 @@
   grid-column-start: 7; 
   grid-column-end: 8;
 }
+.icon-circle {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  vertical-align: middle;
+  text-align:center;
+  line-height: 60px;
+  border-radius: 50%;
+  background: #EC7938;
+}
 
 /* navバー */
 .nav {
@@ -100,4 +111,62 @@
 footer {
   height: 400px;
   background-color: #5D5D5D;
+}
+
+
+/* 599px以下 */
+@media screen and (max-width: 599px) {
+  .coach-container {
+    display: block;
+    width: 100vw;
+    padding: 10px;
+    margin: 0;
+  }
+  .coach-box {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    border: solid 3px rgba(0, 0, 0, 0.1 );
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .image-shape {
+    display: inline-block;
+    width: 40%;
+    height: 45vw;
+  }
+  .image-shape img {
+    border-radius: 10px;
+  }
+  hr {
+    display: none;
+  }
+  .description {
+    display: inline-block;
+    width: 55%;
+    vertical-align: top;
+    margin-left: 10px;
+  }
+  .name {
+    margin-top: 0;
+    font-size: 1.8rem;
+  }
+  .table-price-login {
+    display: block;
+    margin-top: 10px;
+  }
+  .price {
+    display: block;
+    width: 100%;
+    font-size: 1.4rem;
+  }
+  .last-login {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+  }
+  .coach-detail {
+    margin: 20px 0 0 0;
+    font-size: 1.2rem;
+  }
 }

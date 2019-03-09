@@ -43,6 +43,17 @@
   grid-column-start: 7; 
   grid-column-end: 8;
 }
+.icon-circle {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  vertical-align: middle;
+  text-align:center;
+  line-height: 60px;
+  border-radius: 50%;
+  background: #EC7938;
+}
 
 /* トップイメージ */
 .top-image {
