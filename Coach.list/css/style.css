@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* ヘッダー */
+.container {
+  display: grid;
+  text-align: center;
+  line-height: 4;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 2rem;
+  grid-template-columns: 1fr 1fr 4fr 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: 4;
+}
+.container a {
+  width: 100%;
+}
+.container a:hover {
+  background: linear-gradient(transparent 70%, #EC7938 70%) 
+}
+.logo {
+  grid-column-start: 2; 
+  grid-column-end: 3;
+}
+.home {
+  grid-column-start: 4; 
+  grid-column-end: 5;
+}
+.coach {
+  grid-column-start: 5; 
+  grid-column-end: 6;
+}
+.message {
+  grid-column-start: 6; 
+  grid-column-end: 7;
+}
+.icon {
+  grid-column-start: 7; 
+  grid-column-end: 8;
+}
+
+/* navバー */
+.nav {
+  height: 60px;
+  background-color: #5D5D5D;
+  color: #ffffff;
+}
+.nav p {
+  line-height: 60px;
+  font-size: 2rem;
+  width: 77%;
+  margin: auto;
+}
+
+/* コーチ一覧 */
+.coach-container {
+  width: 77%;
+  margin: 80px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.coach-box {
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 300px;
+}
+.image-shape {
+  width: 100%;
+  height: 300px;
+}
+.image-shape img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.name {
+  font-size: 2rem;
+  margin-top: 5px;
+}
+.table-price-login {
+  display: table;
+}
+.price {
+  display: table-cell;
+  width: 60%;
+  font-size: 2rem;
+}
+.last-login {
+  display: table-cell;
+  width: 35%;
+  font-size: 1.2rem;
+}
+.coach-detail {
+  margin: 5px;
+  font-size: 1.5rem;
+}
+
+/* フッター */
+footer {
+  height: 400px;
+  background-color: #5D5D5D;
+}
